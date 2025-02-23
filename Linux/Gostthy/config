@@ -1,0 +1,19 @@
+# Archivo de config de Ghostty.
+
+# Tema de color: Define el tema de color a usar en la terminal. En este caso, GruvboxDarkHard.
+theme = GruvboxDarkHard
+
+# Fuente: Especifica la fuente a utilizar. En este caso, Fira Code Regular.
+font-family = Fira Code Regular
+
+# Opacidad del fondo: Establece la opacidad del fondo en 1 (totalmente opaco).
+background-opacity = 0.8
+
+# Ocultar el ratón al escribir: Oculta el cursor del ratón mientras se está escribiendo.
+mouse-hide-while-typing = true
+
+# Decoración de la ventana: Activa la decoración de la ventana (bordes, botones de cerrar, etc.).
+window-decoration = true
+
+# Atajo de teclado global: Define un atajo de teclado global (cmd+s) para alternar la visibilidad de la terminal rápida (quick terminal).
+keybind = global:cmd+s=toggle_quick_terminal
